@@ -20,7 +20,7 @@ ini_set("display_errors", 1);
  * if you are using a (different) port, then put this in here, like http://mydomain:8888/subfolder/
  * Note: The trailing slash is important!
  */
-define('URL', 'http://localhost/php-login/');
+define('URL', 'http://localhost:8080/');
 
 /**
  * Configuration for: Folders
@@ -94,7 +94,7 @@ define('DB_TYPE', 'mysql');
 define('DB_HOST', '127.0.0.1');
 define('DB_NAME', 'login');
 define('DB_USER', 'root');
-define('DB_PASS', 'mysql');
+define('DB_PASS', 'root');
 
 /**
  * Configuration for: Hashing strength
@@ -192,7 +192,7 @@ define("EMAIL_PASSWORD_RESET_SUBJECT", "Password reset for PROJECT XY");
 define("EMAIL_PASSWORD_RESET_CONTENT", "Please click on this link to reset your password: ");
 
 define("EMAIL_VERIFICATION_URL", URL . "login/verify");
-define("EMAIL_VERIFICATION_FROM_EMAIL", "no-reply@example.com");
+define("EMAIL_VERIFICATION_FROM_EMAIL", "no-reply@valenvb.ca");
 define("EMAIL_VERIFICATION_FROM_NAME", "My Project");
 define("EMAIL_VERIFICATION_SUBJECT", "Account activation for PROJECT XY");
 define("EMAIL_VERIFICATION_CONTENT", "Please click on this link to activate your account: ");
